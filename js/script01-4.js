@@ -1,4 +1,55 @@
-const age = 96;
+const title = document.querySelector("div.hello:first-child h1");
+
+function handleTitleClick() {
+    console.log("title was clicked!");
+    title.style.color = "blue";
+}
+
+console.dir(title);
+
+
+title.addEventListener("click", handleTitleClick);
+
+
+/* const title = document.getElementById("title");
+title.innerText = "got you!";
+console.log(title.innerText);
+
+const hellos = document.getElementsByClassName("hello");
+
+const title01 = document.querySelector(".hello h1");
+const title02 = document.querySelectorAll(".hello h1");
+
+console.log(title01);
+console.log(title02); */
+
+
+/* const age = parseInt( prompt("How old are you?"));
+
+if (isNaN(age) || age < 0) {
+    console.log("Please write a real positive number");
+} */
+
+
+/* else if(age < 18) {
+    console.log("you are too young.");
+    //console.log("Thank you for writing your age.");
+}
+else if(age >=18 && agr <= 50) {
+    console.log("you can drink");
+}
+else if (age > 50 && age<=80) {
+    console.log("you should exercise");
+}
+else if(age > 80) {
+    console.log("you can do whatever you want.");
+} */
+
+
+///console.log(typeof age);
+///console.log(age, parseInt(age));
+
+/* const age = 96;
 function calculateKrAge(ageOfForeigner) {
     return ageOfForeigner + 2;
 };
@@ -33,8 +84,7 @@ const plusResult = calculator.add(2,4);
 const minusResult =calculator.min(plusResult,4);
 const mulResult =calculator.mul(20,4);
 const divideResult =calculator.div(60,4);
-const powerResult =calculator.pow(4,4);
-
+const powerResult =calculator.pow(4,4); */
 
 
 /* const calculator = {
