@@ -1,3 +1,5 @@
+// Clock
+
 const clock = document.querySelector("#clock");
 
 function getClock() {

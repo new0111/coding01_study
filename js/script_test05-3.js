@@ -1,3 +1,5 @@
+// quotes
+
 const quotes = [
     {
         quote: "When you go through hardships and decide not to surrender, that is strength.",
